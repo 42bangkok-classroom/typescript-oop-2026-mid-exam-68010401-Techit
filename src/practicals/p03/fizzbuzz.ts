@@ -13,7 +13,7 @@ const n = Number(process.argv[2]);
             res.push("Buzz");
         } 
         else {
-            res.push(i.toString());
+            res.push(i);
         }
     }
     console.log(res);
