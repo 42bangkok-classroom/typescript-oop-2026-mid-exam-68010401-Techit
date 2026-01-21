@@ -1,6 +1,6 @@
 const score = Number(process.argv[2]);
 
-if (score >= 80) {
+if (score >= 80 || score <= 100) {
   console.log("Grade is A")
 } else if (score >= 70) {
   console.log("Grade is B")
